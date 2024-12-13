@@ -11,13 +11,13 @@ C:\Program Files\Unity\Hub\Editor\2022.3.42f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Unity/ParkingSimulator/FinalProject
+C:/Unity/ParkingSimulator2/FinalProject
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-52853
-Successfully changed project path to: C:/Unity/ParkingSimulator/FinalProject
-C:/Unity/ParkingSimulator/FinalProject
+62091
+Successfully changed project path to: C:/Unity/ParkingSimulator2/FinalProject
+C:/Unity/ParkingSimulator2/FinalProject
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -49,20 +49,20 @@ C:/Unity/ParkingSimulator/FinalProject
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [19920]  Target information:
+Player connection [9356]  Target information:
 
-Player connection [19920]  * "[IP] 172.21.16.1 [Port] 0 [Flags] 2 [Guid] 2396997410 [EditorId] 2396997410 [Version] 1048832 [Id] WindowsEditor(7,woohyun) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [9356]  * "[IP] 172.20.112.1 [Port] 0 [Flags] 2 [Guid] 3669733996 [EditorId] 3669733996 [Version] 1048832 [Id] WindowsEditor(7,woohyun) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [19920]  * "[IP] 172.30.1.31 [Port] 0 [Flags] 2 [Guid] 2396997410 [EditorId] 2396997410 [Version] 1048832 [Id] WindowsEditor(7,woohyun) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [9356]  * "[IP] 172.30.1.88 [Port] 0 [Flags] 2 [Guid] 3669733996 [EditorId] 3669733996 [Version] 1048832 [Id] WindowsEditor(7,woohyun) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [19920] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [19920] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [9356] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [9356] Host joined alternative multi-casting on [225.0.0.222:34997]...
 [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-Refreshing native plugins compatible for Editor in 87.64 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 104.79 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.42f1 (2dcb6a0abc42)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.42f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Unity/ParkingSimulator/FinalProject/Assets
+[Subsystems] Discovering subsystems at path C:/Unity/ParkingSimulator2/FinalProject/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -74,47 +74,47 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.42f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.42f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.42f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56700
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56068
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.42f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.42f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.032276 seconds.
-- Loaded All Assemblies, in  0.830 seconds
+Registered in 0.055789 seconds.
+- Loaded All Assemblies, in  1.026 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 3882 ms
+Android Extension - Scanning For ADB Devices 5793 ms
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  4.489 seconds
-Domain Reload Profiling: 5313ms
-	BeginReloadAssembly (301ms)
+- Finished resetting the current domain, in  7.233 seconds
+Domain Reload Profiling: 8251ms
+	BeginReloadAssembly (346ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (64ms)
-	RebuildNativeTypeToScriptingClass (18ms)
-	initialDomainReloadingComplete (140ms)
-	LoadAllAssembliesAndSetupDomain (300ms)
-		LoadAssemblies (298ms)
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (86ms)
+	RebuildNativeTypeToScriptingClass (27ms)
+	initialDomainReloadingComplete (196ms)
+	LoadAllAssembliesAndSetupDomain (361ms)
+		LoadAssemblies (343ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (293ms)
-			TypeCache.Refresh (291ms)
-				TypeCache.ScanAssembly (262ms)
+		AnalyzeDomain (353ms)
+			TypeCache.Refresh (350ms)
+				TypeCache.ScanAssembly (319ms)
 			ScanForSourceGeneratedMonoScriptInfo (1ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (4490ms)
+	FinalizeReload (7234ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (4406ms)
+		SetupLoadedEditorAssemblies (7126ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (4109ms)
-			SetLoadedEditorAssemblies (8ms)
+			InitializePlatformSupportModulesInManaged (6098ms)
+			SetLoadedEditorAssemblies (16ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (3ms)
-			ProcessInitializeOnLoadAttributes (194ms)
-			ProcessInitializeOnLoadMethodAttributes (92ms)
+			BeforeProcessingInitializeOnLoad (5ms)
+			ProcessInitializeOnLoadAttributes (783ms)
+			ProcessInitializeOnLoadMethodAttributes (224ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -123,58 +123,58 @@ Domain Reload Profiling: 5313ms
 Worker process is ready to serve import requests
 Caller must complete domain reload
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  3.132 seconds
+- Loaded All Assemblies, in  3.364 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.227 seconds
-Domain Reload Profiling: 5341ms
-	BeginReloadAssembly (871ms)
+- Finished resetting the current domain, in  2.295 seconds
+Domain Reload Profiling: 5638ms
+	BeginReloadAssembly (945ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (21ms)
+		DisableScriptedObjects (19ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (92ms)
-	RebuildCommonClasses (178ms)
-	RebuildNativeTypeToScriptingClass (53ms)
-	initialDomainReloadingComplete (273ms)
-	LoadAllAssembliesAndSetupDomain (1735ms)
-		LoadAssemblies (1624ms)
+		CreateAndSetChildDomain (115ms)
+	RebuildCommonClasses (162ms)
+	RebuildNativeTypeToScriptingClass (52ms)
+	initialDomainReloadingComplete (268ms)
+	LoadAllAssembliesAndSetupDomain (1915ms)
+		LoadAssemblies (1886ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (710ms)
-			TypeCache.Refresh (619ms)
-				TypeCache.ScanAssembly (567ms)
-			ScanForSourceGeneratedMonoScriptInfo (47ms)
-			ResolveRequiredComponents (41ms)
-	FinalizeReload (2230ms)
+		AnalyzeDomain (676ms)
+			TypeCache.Refresh (585ms)
+				TypeCache.ScanAssembly (534ms)
+			ScanForSourceGeneratedMonoScriptInfo (65ms)
+			ResolveRequiredComponents (23ms)
+	FinalizeReload (2296ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1744ms)
+		SetupLoadedEditorAssemblies (1857ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (60ms)
-			SetLoadedEditorAssemblies (7ms)
+			InitializePlatformSupportModulesInManaged (78ms)
+			SetLoadedEditorAssemblies (9ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (122ms)
-			ProcessInitializeOnLoadAttributes (1404ms)
-			ProcessInitializeOnLoadMethodAttributes (109ms)
-			AfterProcessingInitializeOnLoad (41ms)
-			EditorAssembliesLoaded (1ms)
+			BeforeProcessingInitializeOnLoad (229ms)
+			ProcessInitializeOnLoadAttributes (1231ms)
+			ProcessInitializeOnLoadMethodAttributes (256ms)
+			AfterProcessingInitializeOnLoad (53ms)
+			EditorAssembliesLoaded (2ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (64ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.20 seconds
-Refreshing native plugins compatible for Editor in 48.29 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (55ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.18 seconds
+Refreshing native plugins compatible for Editor in 37.79 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3100 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 19 unused Assets / (54.6 KB). Loaded Objects now: 3569.
-Memory consumption went from 128.0 MB to 127.9 MB.
-Total: 7.577900 ms (FindLiveObjects: 0.791700 ms CreateObjectMapping: 0.575700 ms MarkObjects: 5.980800 ms  DeleteObjects: 0.226900 ms)
+Unloading 5015 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 29 unused Assets / (0.7 MB). Loaded Objects now: 5480.
+Memory consumption went from 196.1 MB to 195.4 MB.
+Total: 7.901200 ms (FindLiveObjects: 1.444100 ms CreateObjectMapping: 0.915000 ms MarkObjects: 4.963400 ms  DeleteObjects: 0.576600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
@@ -185,179 +185,770 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 176748.368015 seconds.
-  path: Assets/BackgroundCars/FreeCar/FuzzyRed/Materials/FuzzyRed.mat
-  artifactKey: Guid(ac88da5b18f2f0445b208f2128bebd22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BackgroundCars/FreeCar/FuzzyRed/Materials/FuzzyRed.mat using Guid(ac88da5b18f2f0445b208f2128bebd22) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+  Time since last request: 124433.728104 seconds.
+  path: Assets/CS - Signs Free/Prefabs/Large/Sign_No_Parking.prefab
+  artifactKey: Guid(46e6c33c4e2f2fb4cbdc57471c01e64c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CS - Signs Free/Prefabs/Large/Sign_No_Parking.prefab using Guid(46e6c33c4e2f2fb4cbdc57471c01e64c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '76b478e0acdcf9c898db86389ef9904a') in 0.383099 seconds
+ -> (artifact id: 'fcd67c914c11f8d0703c377c32648bf3') in 1.179874 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 40
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/BackgroundCars/FreeCar
-  artifactKey: Guid(8c672fa071406c34d9d3a2ec8bfaba86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BackgroundCars/FreeCar using Guid(8c672fa071406c34d9d3a2ec8bfaba86) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '669ef4ff4f25a935e26ab8b71b1c1254') in 0.001009 seconds
+  Time since last request: 0.000044 seconds.
+  path: Assets/CS - Signs Free/Prefabs/Large/Sign_Added_Lane_2.prefab
+  artifactKey: Guid(93cc623d93ca78e41968b3bbd65581ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CS - Signs Free/Prefabs/Large/Sign_Added_Lane_2.prefab using Guid(93cc623d93ca78e41968b3bbd65581ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'a9bc04ea7d6a8979e9e9cf745be13c6e') in 0.572876 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 40
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/CS - Signs Free/Prefabs/Large/Sign_Speed_25.prefab
+  artifactKey: Guid(69834a08354410946994163edc45be3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CS - Signs Free/Prefabs/Large/Sign_Speed_25.prefab using Guid(69834a08354410946994163edc45be3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'c52714a51a182c56c4715205d1462ba5') in 0.063528 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 40
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/CS - Signs Free/Prefabs/Large/Sign_Divided_Highway.prefab
+  artifactKey: Guid(3691633a64545c24eb15f2ba1a3b3f3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CS - Signs Free/Prefabs/Large/Sign_Divided_Highway.prefab using Guid(3691633a64545c24eb15f2ba1a3b3f3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '61132cbe37988a54cb5cfa2fb8e0c119') in 0.047855 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 40
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/CS - Signs Free/Prefabs/Large/Sign_Exit_40MPH.prefab
+  artifactKey: Guid(5f1f36c452f87a14d949302f2c5dcbac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CS - Signs Free/Prefabs/Large/Sign_Exit_40MPH.prefab using Guid(5f1f36c452f87a14d949302f2c5dcbac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '4d7003c9c6182d4266455c84a7152eb4') in 0.037087 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 40
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/CS - Signs Free/Prefabs/Large/Sign_Right_Turn_Only.prefab
+  artifactKey: Guid(7919c0439bd1d5542aa2f1fc66405d82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CS - Signs Free/Prefabs/Large/Sign_Right_Turn_Only.prefab using Guid(7919c0439bd1d5542aa2f1fc66405d82) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '303d8e454e1f49c8775d6819514e468f') in 0.059208 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 40
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/CS - Signs Free/Prefabs/Large/Sign_Forward_or_Right.prefab
+  artifactKey: Guid(9a3c00292235b8e4984df425b347da1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CS - Signs Free/Prefabs/Large/Sign_Forward_or_Right.prefab using Guid(9a3c00292235b8e4984df425b347da1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '455dd92ec24d1f4ddc2b55ac0023f6f2') in 0.041275 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 40
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/CS - Signs Free/Prefabs/Large/Sign_Keep_Right.prefab
+  artifactKey: Guid(c6003e2525111e041863b1ac662e3b73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CS - Signs Free/Prefabs/Large/Sign_Keep_Right.prefab using Guid(c6003e2525111e041863b1ac662e3b73) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '365309544367049281b1457049f9848c') in 0.084782 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 40
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/CS - Signs Free/Prefabs/Large/Tab_Ahead.prefab
+  artifactKey: Guid(b081a2432faf48d459422f484ca53101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CS - Signs Free/Prefabs/Large/Tab_Ahead.prefab using Guid(b081a2432faf48d459422f484ca53101) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '84ff43ef95430c8b67233065639df7ae') in 0.089917 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 40
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/CS - Signs Free/Prefabs/Large/Sign_Sideroad_T_L.prefab
+  artifactKey: Guid(31111a3c6d0a02440aa9eb43575510fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CS - Signs Free/Prefabs/Large/Sign_Sideroad_T_L.prefab using Guid(31111a3c6d0a02440aa9eb43575510fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '3b9adba64a82dac6ea7e8e2b85215a00') in 0.080279 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 40
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/CS - Signs Free/Prefabs/Freeway/Sign_Exit_L.prefab
+  artifactKey: Guid(af03721290a2f674d8ba898d187b9e88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CS - Signs Free/Prefabs/Freeway/Sign_Exit_L.prefab using Guid(af03721290a2f674d8ba898d187b9e88) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'dc0d7b0fccba3b9ec6d2140a6debea75') in 0.059473 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 40
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/CS - Signs Free/Prefabs/Large/Sign_Keep_Left.prefab
+  artifactKey: Guid(2cbeacaa276c3524bbd0a5433c30d0bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CS - Signs Free/Prefabs/Large/Sign_Keep_Left.prefab using Guid(2cbeacaa276c3524bbd0a5433c30d0bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '89c050d3ae2fef49d24aeb0132775738') in 0.048952 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 40
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/CS - Signs Free/Prefabs/Large/St_Airport_Way.prefab
+  artifactKey: Guid(7f43c4db20bf29540a55fbbcda304f06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CS - Signs Free/Prefabs/Large/St_Airport_Way.prefab using Guid(7f43c4db20bf29540a55fbbcda304f06) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'ffce214eec28f390c0544bc36af46ee0') in 0.052770 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 40
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/CS - Signs Free/Prefabs/Freeway/Sign_Speed_70.prefab
+  artifactKey: Guid(6f5a00c7ec4217e4db9971fd1c7c4819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CS - Signs Free/Prefabs/Freeway/Sign_Speed_70.prefab using Guid(6f5a00c7ec4217e4db9971fd1c7c4819) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '515f6136f66bf14fea565b929b167e37') in 0.032201 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 40
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/CS - Signs Free/Prefabs/Large/Sign_Hill.prefab
+  artifactKey: Guid(417e17bca46acc04ea1116a8f316ed48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CS - Signs Free/Prefabs/Large/Sign_Hill.prefab using Guid(417e17bca46acc04ea1116a8f316ed48) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'faf5d4136b08b55fb6f6d042b645b167') in 0.043109 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 40
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/CS - Signs Free/Prefabs/Large/Tab_Speed_45.prefab
+  artifactKey: Guid(1d7c7ce760d30f545b88ca42b6a58936) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CS - Signs Free/Prefabs/Large/Tab_Speed_45.prefab using Guid(1d7c7ce760d30f545b88ca42b6a58936) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '574b0c4f2100db270d502b45cae8b95a') in 0.046332 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 40
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/CS - Signs Free/Prefabs/Large/Sign_Speed_70.prefab
+  artifactKey: Guid(a73bac6df5b36fd44bd3c968fd7280b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CS - Signs Free/Prefabs/Large/Sign_Speed_70.prefab using Guid(a73bac6df5b36fd44bd3c968fd7280b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'c3e483281668a1ee5eee81e5d162ae29') in 0.050522 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 40
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/CS - Signs Free/Prefabs/Large/Tab_Arrow_Diagonal_R.prefab
+  artifactKey: Guid(7e31fbbfaace8934ca3162ccb31b6dff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CS - Signs Free/Prefabs/Large/Tab_Arrow_Diagonal_R.prefab using Guid(7e31fbbfaace8934ca3162ccb31b6dff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '9e3ee781c3b3c4811b5cde97009fe238') in 0.064215 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 40
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/CS - Signs Free/Prefabs/Large/Tab_Arrow_Diagonal.prefab
+  artifactKey: Guid(c3c9fc770e2947347b82e27bbbb0d23f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CS - Signs Free/Prefabs/Large/Tab_Arrow_Diagonal.prefab using Guid(c3c9fc770e2947347b82e27bbbb0d23f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'b8ba2e6971985808b9d9ea7a0075479d') in 0.041782 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 40
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/CS - Signs Free/Prefabs/Large/St_Main.prefab
+  artifactKey: Guid(a6a5d59eb4e1bf84b8a731a4d912ceae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CS - Signs Free/Prefabs/Large/St_Main.prefab using Guid(a6a5d59eb4e1bf84b8a731a4d912ceae) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '49412d5b34f73c327cfab1f05f7c13b3') in 0.039008 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 40
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/CS - Signs Free/Prefabs/Large/Sign_Yield.prefab
+  artifactKey: Guid(ad8bf61253b5ddf4ab5bd2a4312b5c0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CS - Signs Free/Prefabs/Large/Sign_Yield.prefab using Guid(ad8bf61253b5ddf4ab5bd2a4312b5c0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'af88b955189cf4ab404e19808d49d8b1') in 0.056073 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 56
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/CS - Signs Free/Prefabs/Large/Sign_Sharp_Left.prefab
+  artifactKey: Guid(ffda5725b67138a4f8a82aac764efcee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CS - Signs Free/Prefabs/Large/Sign_Sharp_Left.prefab using Guid(ffda5725b67138a4f8a82aac764efcee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '980bcba40ebe10cbb70f2f02bae13c41') in 0.038024 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 40
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/CS - Signs Free/Prefabs/Large/Sign_Chevron_L.prefab
+  artifactKey: Guid(05b83145526126541ab38c842dd2868a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CS - Signs Free/Prefabs/Large/Sign_Chevron_L.prefab using Guid(05b83145526126541ab38c842dd2868a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'ba690b8825c21ebee94c273946c65e36') in 0.066555 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 40
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/CS - Signs Free/Prefabs/Large/Sign_Merge.prefab
+  artifactKey: Guid(f6aa736b8d5baf840ae18de43eac400e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CS - Signs Free/Prefabs/Large/Sign_Merge.prefab using Guid(f6aa736b8d5baf840ae18de43eac400e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '08a3cf56870e908ffd2f15268a52fd36') in 0.073315 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 40
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/CS - Signs Free/Prefabs/Large/St_1st.prefab
+  artifactKey: Guid(24cb055ad1b42484d853c1dac9488706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CS - Signs Free/Prefabs/Large/St_1st.prefab using Guid(24cb055ad1b42484d853c1dac9488706) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '2e5777640659f403391b4f7ecf882e00') in 0.035358 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 40
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/CS - Signs Free/Prefabs/Large/Sign_Sharp_LR.prefab
+  artifactKey: Guid(716a7c7065f3e594fa0ccf73cc1a1561) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CS - Signs Free/Prefabs/Large/Sign_Sharp_LR.prefab using Guid(716a7c7065f3e594fa0ccf73cc1a1561) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '09acec9709da0028ef910b644addf369') in 0.058556 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 40
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/CS - Signs Free/Prefabs/Large/Sign_Slight_Left.prefab
+  artifactKey: Guid(5f3aaf835ed6c4946a48821bb448693a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CS - Signs Free/Prefabs/Large/Sign_Slight_Left.prefab using Guid(5f3aaf835ed6c4946a48821bb448693a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '10219ea89c0e079d7a25d085af849295') in 0.042742 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 40
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/CS - Signs Free/Prefabs/Large/Sign_Ped_Xing_2.prefab
+  artifactKey: Guid(8b2c419d45f665446bf75ffdf2d872fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CS - Signs Free/Prefabs/Large/Sign_Ped_Xing_2.prefab using Guid(8b2c419d45f665446bf75ffdf2d872fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'f957c5abcbcf727e4a4eadc0ddd3e007') in 0.038922 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 40
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/CS - Signs Free/Prefabs/Large/Sign_Speed_40.prefab
+  artifactKey: Guid(7cf2d431b840f7e429e1a075d638bf02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CS - Signs Free/Prefabs/Large/Sign_Speed_40.prefab using Guid(7cf2d431b840f7e429e1a075d638bf02) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'a4b40d0128a703cc24e0ce166b8bf4fa') in 0.054177 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 40
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/CS - Signs Free/Prefabs/Large/Sign_Forward_Only.prefab
+  artifactKey: Guid(71b2784d9d0155e428b54b4c0997da74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CS - Signs Free/Prefabs/Large/Sign_Forward_Only.prefab using Guid(71b2784d9d0155e428b54b4c0997da74) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '0c922aa9472f3ee5d8eac03ea8407244') in 0.038943 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 40
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/CS - Signs Free/Prefabs/Large/SignPost_1.prefab
+  artifactKey: Guid(ce971711b1127b94d858994998d95b94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CS - Signs Free/Prefabs/Large/SignPost_1.prefab using Guid(ce971711b1127b94d858994998d95b94) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '5819ddcd29c38ce887e7432b791047dc') in 0.631777 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/CS - Signs Free/Prefabs/Large/Sign_Merge_L.prefab
+  artifactKey: Guid(46ba2129fa193f54e912c6599fdb3ee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CS - Signs Free/Prefabs/Large/Sign_Merge_L.prefab using Guid(46ba2129fa193f54e912c6599fdb3ee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '618485884bcff75b53e7583becb99f34') in 0.046280 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 40
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/CS - Signs Free/Prefabs/Large/Sign_Sharp_Right.prefab
+  artifactKey: Guid(e567d38d825d8904c950e8596e642b77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CS - Signs Free/Prefabs/Large/Sign_Sharp_Right.prefab using Guid(e567d38d825d8904c950e8596e642b77) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'a89cc8dbb4afc97fcbb95d7387e0f6f6') in 0.100639 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 40
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/CS - Signs Free/Prefabs
+  artifactKey: Guid(ef5dbe8cc9a591c4eaa0723512c481d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CS - Signs Free/Prefabs using Guid(ef5dbe8cc9a591c4eaa0723512c481d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'cf4d1bd44b82a88a5b3f606ed5100707') in 0.002255 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000586 seconds.
-  path: Assets/BackgroundCars/FreeCar/FuzzyRed/FuzzyRed.png
-  artifactKey: Guid(cabc227a8a761ee4a8759c3f1eed658c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BackgroundCars/FreeCar/FuzzyRed/FuzzyRed.png using Guid(cabc227a8a761ee4a8759c3f1eed658c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+  Time since last request: 0.000038 seconds.
+  path: Assets/CS - Signs Free/Prefabs/Large/Sign_RL.prefab
+  artifactKey: Guid(463b1f9ec5d74814ca584af1f43d7f61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CS - Signs Free/Prefabs/Large/Sign_RL.prefab using Guid(463b1f9ec5d74814ca584af1f43d7f61) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '66a1b2d8aa5a50747baf17a00a0bcf27') in 0.088980 seconds
+ -> (artifact id: '0ebde268b1bfbf16a9416adff131d5ee') in 0.069630 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 40
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/CS - Signs Free/Prefabs/Freeway/Sign_Speed_40.prefab
+  artifactKey: Guid(dd0511e3c7db64f4583a3cdb92f6f011) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CS - Signs Free/Prefabs/Freeway/Sign_Speed_40.prefab using Guid(dd0511e3c7db64f4583a3cdb92f6f011) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '3b6144e26d79587645d7ec3ece0d4428') in 0.065506 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 40
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/CS - Signs Free/Prefabs/Large/Sign_Sideroad_T_R.prefab
+  artifactKey: Guid(e72ba1f73e26b004f8ceb9fec55ff39c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CS - Signs Free/Prefabs/Large/Sign_Sideroad_T_R.prefab using Guid(e72ba1f73e26b004f8ceb9fec55ff39c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '6db825d0f007685301e3aa59fbf6cb11') in 0.035344 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 40
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/CS - Signs Free/Prefabs/Freeway
+  artifactKey: Guid(ee88ebe194f1822428234e04ed1c5ad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CS - Signs Free/Prefabs/Freeway using Guid(ee88ebe194f1822428234e04ed1c5ad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'a817b730ed34bbe789a81b86d71f6c23') in 0.001857 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/CS - Signs Free/Prefabs/Freeway/Sign_Exit.prefab
+  artifactKey: Guid(f5151f948e7bea547abe38843d5b5b3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CS - Signs Free/Prefabs/Freeway/Sign_Exit.prefab using Guid(f5151f948e7bea547abe38843d5b5b3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'e3eab60d6ce5c6c030fef1381b335662') in 0.046308 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 40
+========================================================================
+Received Import Request.
+  Time since last request: 0.001074 seconds.
+  path: Assets/CS - Signs Free/Prefabs/Freeway/SignPost_2.prefab
+  artifactKey: Guid(09a6c11c3415a384a965e814ec8c7c5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CS - Signs Free/Prefabs/Freeway/SignPost_2.prefab using Guid(09a6c11c3415a384a965e814ec8c7c5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '1c4102efcd8454b300f548b51da1493c') in 0.053194 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/CS - Signs Free/Prefabs/Large/Sign_Left_Turn_Yield_On_Green.prefab
+  artifactKey: Guid(545fc65bf982f5642a55d66af1938055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CS - Signs Free/Prefabs/Large/Sign_Left_Turn_Yield_On_Green.prefab using Guid(545fc65bf982f5642a55d66af1938055) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '90db2adf062a3ed013e58570c32fc020') in 0.033626 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 40
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/CS - Signs Free/Prefabs/Freeway/Sign_Speed_55.prefab
+  artifactKey: Guid(4d332638ec1e8d84cbf74db4f7429891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CS - Signs Free/Prefabs/Freeway/Sign_Speed_55.prefab using Guid(4d332638ec1e8d84cbf74db4f7429891) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'cdfdda55cdf4329340d334f4f2701fdb') in 0.051062 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 40
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/CS - Signs Free/Prefabs/Large/Sign_Slight_Right.prefab
+  artifactKey: Guid(1d55ded536a3cc24ab42193b1d91d557) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CS - Signs Free/Prefabs/Large/Sign_Slight_Right.prefab using Guid(1d55ded536a3cc24ab42193b1d91d557) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'a93b1a5390ad05573ced302d2526356a') in 0.081082 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 40
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/CS - Signs Free/Prefabs/Large/Sign_Ped_Xing.prefab
+  artifactKey: Guid(e32770cc1912cad488e1624bfd174275) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CS - Signs Free/Prefabs/Large/Sign_Ped_Xing.prefab using Guid(e32770cc1912cad488e1624bfd174275) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '22be09dd28390957e4967ed5b1db8eb2') in 0.067536 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 40
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/CS - Signs Free/Prefabs/Large/Sign_Ramp_30_MPH.prefab
+  artifactKey: Guid(ef403e2614b763243bdbe8f0990bbf14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CS - Signs Free/Prefabs/Large/Sign_Ramp_30_MPH.prefab using Guid(ef403e2614b763243bdbe8f0990bbf14) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '6871f1f93b8569bc5e40743b87dda709') in 0.054467 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 40
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/CS - Signs Free/Prefabs/Large/Sign_Dead_End.prefab
+  artifactKey: Guid(079043d13375ad645b83a76876bb3de5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CS - Signs Free/Prefabs/Large/Sign_Dead_End.prefab using Guid(079043d13375ad645b83a76876bb3de5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'e09e01f7cca0d4f1aac3f74d953a89df') in 0.034719 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 40
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/CS - Signs Free/Prefabs/Large/Sign_One_Way_R1.prefab
+  artifactKey: Guid(ff0f3c9c96878a944be03ff00e9970b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CS - Signs Free/Prefabs/Large/Sign_One_Way_R1.prefab using Guid(ff0f3c9c96878a944be03ff00e9970b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '5028f03af5c060ff96070e8af853a6ad') in 0.054878 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 40
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/CS - Signs Free/Prefabs/Large/St_Sunset.prefab
+  artifactKey: Guid(16a0a7cbcc4866e4b8f1692bf5daf7a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CS - Signs Free/Prefabs/Large/St_Sunset.prefab using Guid(16a0a7cbcc4866e4b8f1692bf5daf7a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '44ee9711b73d00e1d265e0358a89739c') in 0.047828 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 40
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/CS - Signs Free/Prefabs/Freeway/SignPost_1.prefab
+  artifactKey: Guid(377d4109a5df9dc4bbee7393d5599aaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CS - Signs Free/Prefabs/Freeway/SignPost_1.prefab using Guid(377d4109a5df9dc4bbee7393d5599aaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '0c963ebca7da91d5b0c01859408ced8e') in 0.036172 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/CS - Signs Free/Prefabs/Large/Sign_Right_Lane_Ends_2.prefab
+  artifactKey: Guid(148cf675ae2c7cd458717f43af65ea1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CS - Signs Free/Prefabs/Large/Sign_Right_Lane_Ends_2.prefab using Guid(148cf675ae2c7cd458717f43af65ea1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '8272d483673b3cc468d9a53f180180af') in 0.071961 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 40
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/CS - Signs Free/Prefabs/Large/Sign_Chevron_R.prefab
+  artifactKey: Guid(612e4787820081d45abc4d7d07e06e75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CS - Signs Free/Prefabs/Large/Sign_Chevron_R.prefab using Guid(612e4787820081d45abc4d7d07e06e75) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '609eaad1f1c3fea8e813ff48ea2f0b66') in 0.032026 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 40
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/CS - Signs Free/Prefabs/Large/Sign_Center_Lane_Turn_Only.prefab
+  artifactKey: Guid(dc495e568615b3d4fa422da6cb6fc197) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CS - Signs Free/Prefabs/Large/Sign_Center_Lane_Turn_Only.prefab using Guid(dc495e568615b3d4fa422da6cb6fc197) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '09aced5efd9831876379991a248e0e31') in 0.048203 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 40
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/CS - Signs Free/Prefabs/Large/Sign_Sharp_RL.prefab
+  artifactKey: Guid(789ab50a2a01ea94887455cc0380663f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CS - Signs Free/Prefabs/Large/Sign_Sharp_RL.prefab using Guid(789ab50a2a01ea94887455cc0380663f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '28ce326e9989dd2e17b9f6f679ec33dc') in 0.040754 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 40
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/CS - Signs Free/Prefabs/Large/Sign_Do_Not_Enter.prefab
+  artifactKey: Guid(a575aab2964ae2b499ac52a18862a411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CS - Signs Free/Prefabs/Large/Sign_Do_Not_Enter.prefab using Guid(a575aab2964ae2b499ac52a18862a411) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'b9bf2a42fad34ae17a7976aba258dad8') in 0.049198 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 40
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/CS - Signs Free/Prefabs/Large/Sign_Stop.prefab
+  artifactKey: Guid(7f58021dc7e4f9742bb58e20c1bbbcda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CS - Signs Free/Prefabs/Large/Sign_Stop.prefab using Guid(7f58021dc7e4f9742bb58e20c1bbbcda) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '3bc246a02c88ff82853ee32cc8b2342b') in 0.061908 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/CS - Signs Free/Prefabs/Large/Sign_One_Way_L1.prefab
+  artifactKey: Guid(841ab63465ee9704bb36421d39a7fe47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CS - Signs Free/Prefabs/Large/Sign_One_Way_L1.prefab using Guid(841ab63465ee9704bb36421d39a7fe47) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '8712b624d7c3c30a8a9ca2a1e3a596d7') in 0.031383 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 40
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/CS - Signs Free/Prefabs/Large/Sign_Clearance_12_6.prefab
+  artifactKey: Guid(f5a193701f891b2449072595226c7ac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CS - Signs Free/Prefabs/Large/Sign_Clearance_12_6.prefab using Guid(f5a193701f891b2449072595226c7ac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '9eb4824575b169715c8b5373b047413c') in 0.060730 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 40
+========================================================================
+Received Import Request.
+  Time since last request: 31.692445 seconds.
+  path: Assets/CS - Signs Free/Prefabs/Sm-Med/Sign_Added_Lane.prefab
+  artifactKey: Guid(455f8b3abee24c74cb3ed9330637361f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CS - Signs Free/Prefabs/Sm-Med/Sign_Added_Lane.prefab using Guid(455f8b3abee24c74cb3ed9330637361f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '096943113a2607aaf62f1d0d7ff73ca3') in 0.042520 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 40
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/CS - Signs Free/Prefabs/Sm-Med/Sign_Merge_L.prefab
+  artifactKey: Guid(5a126a494804c204f84facc76fbf14a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CS - Signs Free/Prefabs/Sm-Med/Sign_Merge_L.prefab using Guid(5a126a494804c204f84facc76fbf14a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '510e0a9f4fd6563e724dd6d466bb21ec') in 0.070966 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 40
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/CS - Signs Free/Prefabs/Sm-Med/Sign_Hill.prefab
+  artifactKey: Guid(f521e80c06d74b64aabd1d04275cbaeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CS - Signs Free/Prefabs/Sm-Med/Sign_Hill.prefab using Guid(f521e80c06d74b64aabd1d04275cbaeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'bce7e903d5e276ed6a95e78532667c3c') in 0.068642 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 40
 ========================================================================
 Received Import Request.
   Time since last request: 0.000039 seconds.
-  path: Assets/BackgroundCars/FreeCar/FuzzyRed
-  artifactKey: Guid(221790f31d4cffa4098d01c787552704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BackgroundCars/FreeCar/FuzzyRed using Guid(221790f31d4cffa4098d01c787552704) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'd882af2fd8ad10e5bd03e3cce2b66769') in 0.002035 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.000066 seconds.
-  path: Assets/BackgroundCars/FreeCar/BackgroundCar-Free.txt
-  artifactKey: Guid(7b975f7010a3cf54aa3eb2e6d302b179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BackgroundCars/FreeCar/BackgroundCar-Free.txt using Guid(7b975f7010a3cf54aa3eb2e6d302b179) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '6d567491253e9a851f43f5e3e3240a1c') in 0.009933 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/BackgroundCars/FreeCar/FuzzyRed/FuzzyRed.fbx
-  artifactKey: Guid(f143ac8d2a1b5e0488e4be650ad829d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BackgroundCars/FreeCar/FuzzyRed/FuzzyRed.fbx using Guid(f143ac8d2a1b5e0488e4be650ad829d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+  path: Assets/CS - Signs Free/Prefabs/Sm-Med/Sign_Chevron_R.prefab
+  artifactKey: Guid(96d80214945894c4e883cdc478ec1f07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CS - Signs Free/Prefabs/Sm-Med/Sign_Chevron_R.prefab using Guid(96d80214945894c4e883cdc478ec1f07) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '9fb951979eaef5a8b3aaee36136c60dc') in 0.058321 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 40
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/CS - Signs Free/Prefabs/Sm-Med/Sign_Clearance_12_6.prefab
+  artifactKey: Guid(ab2debb8b78dfc7429188875e415e6ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CS - Signs Free/Prefabs/Sm-Med/Sign_Clearance_12_6.prefab using Guid(ab2debb8b78dfc7429188875e415e6ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'fdeabbccd1d406a84f185f55be28b3b9') in 0.493384 seconds
+ -> (artifact id: '9695991949418518b9f7eeaea91565fd') in 0.035081 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
+Number of asset objects unloaded after import = 40
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/BackgroundCars/FreeCar/FuzzyRed/Materials
-  artifactKey: Guid(685c00c8372b5544cbcc762c1fe39487) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BackgroundCars/FreeCar/FuzzyRed/Materials using Guid(685c00c8372b5544cbcc762c1fe39487) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'aa0e65ba876cb3a808583187d055f512') in 0.001416 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.434131 seconds.
-  path: Assets/BackgroundCars/FreeCar/FreeDemoScene.unity
-  artifactKey: Guid(00e520d07eb23a247b488d7570a6c36e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BackgroundCars/FreeCar/FreeDemoScene.unity using Guid(00e520d07eb23a247b488d7570a6c36e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'd6204adc11874ce8bf27d8621089700c') in 0.001461 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 4.084429 seconds.
-  path: Assets/BackgroundCars/FreeCar/FreeDemoSceneSettings.lighting
-  artifactKey: Guid(0d8666a51e8143b45bd9a471ad15a052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BackgroundCars/FreeCar/FreeDemoSceneSettings.lighting using Guid(0d8666a51e8143b45bd9a471ad15a052) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-LightingSettings: switching bake backend from 1 to 0.
- -> (artifact id: '3d203e2da84891b09d6c5b8616ef18c7') in 0.003821 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 92.578865 seconds.
-  path: Assets/BackgroundCars/ParkingLot/Grass01.png
-  artifactKey: Guid(1ffa4d751e20f904686d8abe9a56ca2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BackgroundCars/ParkingLot/Grass01.png using Guid(1ffa4d751e20f904686d8abe9a56ca2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+  Time since last request: 0.000058 seconds.
+  path: Assets/CS - Signs Free/Prefabs/Sm-Med/Sign_Divided_Highway.prefab
+  artifactKey: Guid(2f3d141cd7ad99c409cae3f760326c8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CS - Signs Free/Prefabs/Sm-Med/Sign_Divided_Highway.prefab using Guid(2f3d141cd7ad99c409cae3f760326c8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '47f11e7cf596226a43a8ad2997ec6df9') in 0.030471 seconds
+ -> (artifact id: '5541fb50a1795c6a0a2ff9b25f823782') in 0.051013 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 40
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000225 seconds.
-  path: Assets/BackgroundCars/ParkingLot/RoadConcrete01_512.png
-  artifactKey: Guid(b23ba130c7e1f6e42beca4937a219b90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BackgroundCars/ParkingLot/RoadConcrete01_512.png using Guid(b23ba130c7e1f6e42beca4937a219b90) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+  Time since last request: 0.000037 seconds.
+  path: Assets/CS - Signs Free/Prefabs/Sm-Med/Sign_Left_Lane_Ends_2.prefab
+  artifactKey: Guid(fe623af42e4ca964089d01a1e2aa2949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CS - Signs Free/Prefabs/Sm-Med/Sign_Left_Lane_Ends_2.prefab using Guid(fe623af42e4ca964089d01a1e2aa2949) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'acf2cb2f8a2e61ff1cad9ff229daf516') in 0.034944 seconds
+ -> (artifact id: '9ec0e0df889379751045f68a41e86ddf') in 0.063525 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 40
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000076 seconds.
-  path: Assets/BackgroundCars/ParkingLot/ParkingLot.obj
-  artifactKey: Guid(73f06abc94a6d0248b1129a2e960cb24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BackgroundCars/ParkingLot/ParkingLot.obj using Guid(73f06abc94a6d0248b1129a2e960cb24) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+  Time since last request: 1.284679 seconds.
+  path: Assets/CS - Signs Free/Prefabs/Small/Sign_2_Way_Street.prefab
+  artifactKey: Guid(c07252de08dfb5941825bea813ba7f99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CS - Signs Free/Prefabs/Small/Sign_2_Way_Street.prefab using Guid(c07252de08dfb5941825bea813ba7f99) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '71337ec20dc5f452d03ca12df438b32d') in 0.094321 seconds
+ -> (artifact id: '074b4d20d12d535ec2aa327b0e11648c') in 0.030375 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 15
+Number of asset objects unloaded after import = 40
 ========================================================================
 Received Import Request.
-  Time since last request: 3.524955 seconds.
-  path: Assets/BackgroundCars/ParkingLot/Materials
-  artifactKey: Guid(76cd9ba9efad1a7428d57659440ca4c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BackgroundCars/ParkingLot/Materials using Guid(76cd9ba9efad1a7428d57659440ca4c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '9855db448c211d5f74fc3dca0ed18c87') in 0.001189 seconds
+  Time since last request: 0.000035 seconds.
+  path: Assets/CS - Signs Free/Prefabs/Small/Sign_Crossroad.prefab
+  artifactKey: Guid(ee7671ca6426a8545b456546f210795f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CS - Signs Free/Prefabs/Small/Sign_Crossroad.prefab using Guid(ee7671ca6426a8545b456546f210795f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '26009d50af31e1ddd626e425f9631679') in 0.062240 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 40
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/CS - Signs Free/Prefabs/Small/Sign_Do_Not_Enter.prefab
+  artifactKey: Guid(ae9b499705b731f4e99c56dd3c40f0ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CS - Signs Free/Prefabs/Small/Sign_Do_Not_Enter.prefab using Guid(ae9b499705b731f4e99c56dd3c40f0ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'ab924edcb7719b2201388ca57aa6715a') in 0.074412 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 40
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/CS - Signs Free/Prefabs/Small/Sign_Chevron_L.prefab
+  artifactKey: Guid(87647183876706547a3a6d102d2480be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CS - Signs Free/Prefabs/Small/Sign_Chevron_L.prefab using Guid(87647183876706547a3a6d102d2480be) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '0ccff36a3b130c658ec47c797e692692') in 0.052135 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 40
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/CS - Signs Free/Prefabs/Small/Sign_Exit_40MPH.prefab
+  artifactKey: Guid(87f8a53b9f6cd3540a2bdeff7435d9e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CS - Signs Free/Prefabs/Small/Sign_Exit_40MPH.prefab using Guid(87f8a53b9f6cd3540a2bdeff7435d9e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'edec241a355a9a5a404bce065efe7464') in 0.031390 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 40
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/CS - Signs Free/Prefabs/Small/Sign_Dead_End.prefab
+  artifactKey: Guid(8d41ed4555777374694b2e7e1e7ffd84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CS - Signs Free/Prefabs/Small/Sign_Dead_End.prefab using Guid(8d41ed4555777374694b2e7e1e7ffd84) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '5a856c25891f8d3deb6849b88ee7f91f') in 0.040461 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 40
+========================================================================
+Received Import Request.
+  Time since last request: 0.502100 seconds.
+  path: Assets/CS - Signs Free/Prefabs/X-Small/St_Airport_Way.prefab
+  artifactKey: Guid(77630b443fe148542ab75f6c077ac7e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CS - Signs Free/Prefabs/X-Small/St_Airport_Way.prefab using Guid(77630b443fe148542ab75f6c077ac7e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '7555c80bc00b44864d4c9657011ca846') in 0.037430 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 40
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/CS - Signs Free/Prefabs/X-Small/Tab_Ahead.prefab
+  artifactKey: Guid(1d02c1ebca037a7468692be2791bbea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CS - Signs Free/Prefabs/X-Small/Tab_Ahead.prefab using Guid(1d02c1ebca037a7468692be2791bbea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '5ec280347ee15069ed25b75bcbf942dc') in 0.055816 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 40
 ========================================================================
 Received Prepare
 Caller must complete domain reload
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.920 seconds
+- Loaded All Assemblies, in  1.132 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  8.623 seconds
-Domain Reload Profiling: 9533ms
-	BeginReloadAssembly (262ms)
+- Finished resetting the current domain, in  5.470 seconds
+Domain Reload Profiling: 6592ms
+	BeginReloadAssembly (313ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
+		DisableScriptedObjects (7ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (44ms)
-	RebuildCommonClasses (44ms)
-	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (62ms)
-	LoadAllAssembliesAndSetupDomain (527ms)
-		LoadAssemblies (673ms)
+		CreateAndSetChildDomain (56ms)
+	RebuildCommonClasses (54ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (64ms)
+	LoadAllAssembliesAndSetupDomain (676ms)
+		LoadAssemblies (843ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (21ms)
-			TypeCache.Refresh (8ms)
+		AnalyzeDomain (27ms)
+			TypeCache.Refresh (10ms)
 				TypeCache.ScanAssembly (0ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (11ms)
-	FinalizeReload (8624ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (5471ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2310ms)
+		SetupLoadedEditorAssemblies (1003ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (146ms)
-			SetLoadedEditorAssemblies (20ms)
+			InitializePlatformSupportModulesInManaged (62ms)
+			SetLoadedEditorAssemblies (6ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (368ms)
-			ProcessInitializeOnLoadAttributes (1615ms)
-			ProcessInitializeOnLoadMethodAttributes (91ms)
-			AfterProcessingInitializeOnLoad (69ms)
+			BeforeProcessingInitializeOnLoad (144ms)
+			ProcessInitializeOnLoadAttributes (648ms)
+			ProcessInitializeOnLoadMethodAttributes (115ms)
+			AfterProcessingInitializeOnLoad (28ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (56ms)
-Refreshing native plugins compatible for Editor in 44.09 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (27ms)
+Refreshing native plugins compatible for Editor in 28.46 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3091 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 14 unused Assets / (28.5 KB). Loaded Objects now: 3618.
-Memory consumption went from 126.7 MB to 126.7 MB.
-Total: 5.895800 ms (FindLiveObjects: 0.413800 ms CreateObjectMapping: 0.395900 ms MarkObjects: 4.993600 ms  DeleteObjects: 0.090400 ms)
+Unloading 4929 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (0.7 MB). Loaded Objects now: 5491.
+Memory consumption went from 176.7 MB to 176.0 MB.
+Total: 10.079000 ms (FindLiveObjects: 0.627400 ms CreateObjectMapping: 0.768800 ms MarkObjects: 7.225600 ms  DeleteObjects: 1.455300 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -365,7 +956,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
@@ -376,72 +967,251 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 305.909562 seconds.
-  path: Assets/Azerilo/Car Model No.1201 Asset
-  artifactKey: Guid(6431148f522677b449909a1841e43138) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Azerilo/Car Model No.1201 Asset using Guid(6431148f522677b449909a1841e43138) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'd98e54732c3fbdbdd745b2c4fc2e4c35') in 0.006943 seconds
+  Time since last request: 276.231615 seconds.
+  path: Assets/Simple city plain/Prefabs
+  artifactKey: Guid(9b3f41c9510b3cd43a8766a508dc6635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple city plain/Prefabs using Guid(9b3f41c9510b3cd43a8766a508dc6635) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '6144ddda99e6a27ef3e31a881d8c9ed9') in 0.003134 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.127 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  6.710 seconds
+Domain Reload Profiling: 7825ms
+	BeginReloadAssembly (284ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (58ms)
+	RebuildCommonClasses (54ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (65ms)
+	LoadAllAssembliesAndSetupDomain (695ms)
+		LoadAssemblies (800ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (62ms)
+			TypeCache.Refresh (14ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (32ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (6712ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (778ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (37ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (137ms)
+			ProcessInitializeOnLoadAttributes (488ms)
+			ProcessInitializeOnLoadMethodAttributes (94ms)
+			AfterProcessingInitializeOnLoad (17ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (23ms)
+Refreshing native plugins compatible for Editor in 26.42 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4936 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (0.7 MB). Loaded Objects now: 5501.
+Memory consumption went from 176.9 MB to 176.2 MB.
+Total: 6.724400 ms (FindLiveObjects: 0.855900 ms CreateObjectMapping: 1.430600 ms MarkObjects: 4.034500 ms  DeleteObjects: 0.401600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/RealTrafficLight.cs: c7fe60e6719ae96e7d7872c3a9fda216 -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/TrafficLightManager.cs: 0b6de1364335f687132332a7c58e183b -> 
+  custom:scripting/monoscript/fileName/TrafficLightManagerEditor.cs: 3726457f2bd347365beafd2357e0ee73 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/TrafficLightPhase.cs: c31d3b2d3db4f80d4159ed5122dbc745 -> 
+  custom:scripting/monoscript/fileName/TL_Demo.cs: 09c0973b6911d380a84a21366aa16b8d -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/TrafficLightBase.cs: 061d089c0b129eaf44d7675056c5b481 -> 
+  custom:scripting/monoscript/fileName/HaloTrafficLight.cs: 908ebf1736698a03c1bd4190364e0a79 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp-Editor: 52937c07eaca3f6fb56ee8ef4ee8a097 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 77cd74a411f86c8975ab4be8810a92f3 -> bbf54fe6aab2ea4899a62e953fdf3c68
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.997 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  6.779 seconds
+Domain Reload Profiling: 7768ms
+	BeginReloadAssembly (247ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (40ms)
+	RebuildCommonClasses (51ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (67ms)
+	LoadAllAssembliesAndSetupDomain (606ms)
+		LoadAssemblies (731ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (24ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (6780ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1388ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (89ms)
+			SetLoadedEditorAssemblies (9ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (233ms)
+			ProcessInitializeOnLoadAttributes (876ms)
+			ProcessInitializeOnLoadMethodAttributes (150ms)
+			AfterProcessingInitializeOnLoad (31ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (32ms)
+Refreshing native plugins compatible for Editor in 52.22 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4936 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (0.7 MB). Loaded Objects now: 5504.
+Memory consumption went from 176.9 MB to 176.2 MB.
+Total: 6.696000 ms (FindLiveObjects: 0.937600 ms CreateObjectMapping: 0.836800 ms MarkObjects: 3.909800 ms  DeleteObjects: 1.007500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/RealTrafficLight.cs: c7fe60e6719ae96e7d7872c3a9fda216 -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/TrafficLightManager.cs: 0b6de1364335f687132332a7c58e183b -> 
+  custom:scripting/monoscript/fileName/TrafficLightManagerEditor.cs: 3726457f2bd347365beafd2357e0ee73 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/TrafficLightPhase.cs: c31d3b2d3db4f80d4159ed5122dbc745 -> 
+  custom:scripting/monoscript/fileName/TL_Demo.cs: 09c0973b6911d380a84a21366aa16b8d -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/TrafficLightBase.cs: 061d089c0b129eaf44d7675056c5b481 -> 
+  custom:scripting/monoscript/fileName/HaloTrafficLight.cs: 908ebf1736698a03c1bd4190364e0a79 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp-Editor: 52937c07eaca3f6fb56ee8ef4ee8a097 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 77cd74a411f86c8975ab4be8810a92f3 -> bbf54fe6aab2ea4899a62e953fdf3c68
+========================================================================
+Received Import Request.
+  Time since last request: 2019.836762 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '19c4be54bcb1cdab365cb9c4ac62d5ee') in 0.002448 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 2.128831 seconds.
-  path: Assets/Azerilo/Car Model No.1201 Asset/Prefab
-  artifactKey: Guid(52820fb3e74641b42bf77ea3dba7c445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Azerilo/Car Model No.1201 Asset/Prefab using Guid(52820fb3e74641b42bf77ea3dba7c445) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '704b92fec6a7689e541069c36280b024') in 0.001469 seconds
+  Time since last request: 15.601269 seconds.
+  path: Assets/Traffic Lights System/Demo/Materials/ProxyBuildings.mat
+  artifactKey: Guid(59243a7e16cf36f42836ef3b18863042) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Traffic Lights System/Demo/Materials/ProxyBuildings.mat using Guid(59243a7e16cf36f42836ef3b18863042) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '865d15e0540d0da9fb165e33fb7620e3') in 0.162004 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 6.985217 seconds.
+  path: Assets/Traffic Lights System/Models/tl_cross_road_2x.fbx
+  artifactKey: Guid(5984291e4e48c5d4a8a75b484da2fa38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Traffic Lights System/Models/tl_cross_road_2x.fbx using Guid(5984291e4e48c5d4a8a75b484da2fa38) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'be0128414eb03043f34e2ead8adccaaf') in 0.770599 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Traffic Lights System/Models/tl_post_01.fbx
+  artifactKey: Guid(928d509dcaafa0743ad62accbb1a18bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Traffic Lights System/Models/tl_post_01.fbx using Guid(928d509dcaafa0743ad62accbb1a18bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '7be15b06f226dc574e1952277e4384d9') in 0.070382 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Traffic Lights System/Models/tl_straight_road_2x_crosswalk.fbx
+  artifactKey: Guid(07345c39c6d05b543a21911f0526069d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Traffic Lights System/Models/tl_straight_road_2x_crosswalk.fbx using Guid(07345c39c6d05b543a21911f0526069d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '623f2dd4ab6f1f84ae3cf8b527ab50a2') in 0.584246 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Traffic Lights System/Models/tl_straight_sidewalk_2x.fbx
+  artifactKey: Guid(a27d0d4027c2f46449c16f337a3b6da7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Traffic Lights System/Models/tl_straight_sidewalk_2x.fbx using Guid(a27d0d4027c2f46449c16f337a3b6da7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '2624fcd03e34b220704eec8b0d0d0b81') in 0.062753 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 1.183100 seconds.
+  path: Assets/Traffic Lights System/Prefabs/HaloTrafficLight.prefab
+  artifactKey: Guid(4a8ac1688bd6df1409bbf833011fb2e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Traffic Lights System/Prefabs/HaloTrafficLight.prefab using Guid(4a8ac1688bd6df1409bbf833011fb2e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '7f2b397b90c868105ef08287ec429189') in 0.000848 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.069370 seconds.
-  path: Assets/Azerilo/Car Model No.1201 Asset/Prefab/Car 1.prefab
-  artifactKey: Guid(8258fdccd226b584b8dc1c7ac1652db0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Azerilo/Car Model No.1201 Asset/Prefab/Car 1.prefab using Guid(8258fdccd226b584b8dc1c7ac1652db0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Traffic Lights System/Prefabs/TL_Post.prefab
+  artifactKey: Guid(63a270b4fedffd047ad0beed1d349f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Traffic Lights System/Prefabs/TL_Post.prefab using Guid(63a270b4fedffd047ad0beed1d349f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '2d7a3db1327bdd81db68a64e732a4f7f') in 1.306844 seconds
+ -> (artifact id: 'f4b3933f853109633f9cbad74e231342') in 0.041417 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 226
+Number of asset objects unloaded after import = 9
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000121 seconds.
-  path: Assets/Azerilo/Car Model No.1201 Asset/Prefab/Car_NO.1201.prefab
-  artifactKey: Guid(8e4300b7bafcc74418f53c67ca571e4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Azerilo/Car Model No.1201 Asset/Prefab/Car_NO.1201.prefab using Guid(8e4300b7bafcc74418f53c67ca571e4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Traffic Lights System/Prefabs/TL_StraightRoad2x.prefab
+  artifactKey: Guid(ba5ae08c21bfe144085209a98e24059c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Traffic Lights System/Prefabs/TL_StraightRoad2x.prefab using Guid(ba5ae08c21bfe144085209a98e24059c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'e48042f8a9588bab0658307c60983151') in 0.079220 seconds
+ -> (artifact id: '7f4b7b7ace4d37ecbd775b25cba54dbe') in 0.067084 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 109
-========================================================================
-Received Import Request.
-  Time since last request: 0.000070 seconds.
-  path: Assets/Azerilo/Car Model No.1201 Asset/Prefab/Car 5.prefab
-  artifactKey: Guid(ed7795f4883cb97468521311f1be4e22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Azerilo/Car Model No.1201 Asset/Prefab/Car 5.prefab using Guid(ed7795f4883cb97468521311f1be4e22) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'f6a1620bb2527b2825bee879e11ddaa0') in 0.096282 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 226
-========================================================================
-Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/Azerilo/Car Model No.1201 Asset/Prefab/Car 3.prefab
-  artifactKey: Guid(de53374949c380a43831cdf100ac633d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Azerilo/Car Model No.1201 Asset/Prefab/Car 3.prefab using Guid(de53374949c380a43831cdf100ac633d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'fac56459f4ffe31f9d10807b6bc1d6b2') in 0.151637 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 226
-========================================================================
-Received Import Request.
-  Time since last request: 0.000093 seconds.
-  path: Assets/Azerilo/Car Model No.1201 Asset/Prefab/Car 4.prefab
-  artifactKey: Guid(28e6efeab80060a44aeb418ac1f92bce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Azerilo/Car Model No.1201 Asset/Prefab/Car 4.prefab using Guid(28e6efeab80060a44aeb418ac1f92bce) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'acba8d438025d1d08c02b235dec557b5') in 0.152408 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 226
+Number of asset objects unloaded after import = 22
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: 스레드 종료 또는 응용 프로그램 요청 때문에 I/O 작업이 취소되었습니다.
 AssetImportWorker is now disconnected from the server
