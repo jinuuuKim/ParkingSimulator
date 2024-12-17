@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class CameraSpin : MonoBehaviour
 {
-    public float sensitivity = 100f; // 葆辦蝶 團馬紫
+    public float sensitivity = 50f; // 葆辦蝶 團馬紫
 
     private float yaw = 0f; // 謝辦 �蛻�高
 

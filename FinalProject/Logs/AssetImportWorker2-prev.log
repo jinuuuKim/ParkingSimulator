@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2022.3/staging' branch; Version is '2022.3.42f1 (2dcb6a0abc42) revision 3001194'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'ko' Physical Memory: 24385 MB
+OS: 'Windows 11  (10.0.26100) 64bit Core' Language: 'ko' Physical Memory: 16066 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
@@ -11,13 +11,13 @@ C:\Program Files\Unity\Hub\Editor\2022.3.42f1\Editor\Unity.exe
 -name
 AssetImportWorker2
 -projectPath
-C:/Unity/ParkingSimulator2/FinalProject
+C:/KJW/24-2/VR/Project/ParkingSimulator/FinalProject
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-62091
-Successfully changed project path to: C:/Unity/ParkingSimulator2/FinalProject
-C:/Unity/ParkingSimulator2/FinalProject
+50318
+Successfully changed project path to: C:/KJW/24-2/VR/Project/ParkingSimulator/FinalProject
+C:/KJW/24-2/VR/Project/ParkingSimulator/FinalProject
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -49,72 +49,70 @@ C:/Unity/ParkingSimulator2/FinalProject
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [32504]  Target information:
+Player connection [15628]  Target information:
 
-Player connection [32504]  * "[IP] 172.20.112.1 [Port] 0 [Flags] 2 [Guid] 3906430539 [EditorId] 3906430539 [Version] 1048832 [Id] WindowsEditor(7,woohyun) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [15628]  * "[IP] 172.30.1.56 [Port] 0 [Flags] 2 [Guid] 1580146563 [EditorId] 1580146563 [Version] 1048832 [Id] WindowsEditor(7,mellohn) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [32504]  * "[IP] 172.30.1.88 [Port] 0 [Flags] 2 [Guid] 3906430539 [EditorId] 3906430539 [Version] 1048832 [Id] WindowsEditor(7,woohyun) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
-
-Player connection [32504] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [32504] Host joined alternative multi-casting on [225.0.0.222:34997]...
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-Refreshing native plugins compatible for Editor in 93.61 ms, found 3 plugins.
+Player connection [15628] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [15628] Host joined alternative multi-casting on [225.0.0.222:34997]...
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+Refreshing native plugins compatible for Editor in 13.43 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.42f1 (2dcb6a0abc42)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.42f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Unity/ParkingSimulator2/FinalProject/Assets
+[Subsystems] Discovering subsystems at path C:/KJW/24-2/VR/Project/ParkingSimulator/FinalProject/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: Intel(R) UHD Graphics (ID=0x9b41)
+    Renderer: Intel(R) Iris(R) Xe Graphics (ID=0xa7a0)
     Vendor:   Intel
-    VRAM:     12192 MB
-    Driver:   26.20.100.7870
+    VRAM:     8033 MB
+    Driver:   31.0.101.4032
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.42f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.42f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.42f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56348
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56420
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.42f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.42f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.094780 seconds.
-- Loaded All Assemblies, in  1.802 seconds
+Registered in 0.005729 seconds.
+- Loaded All Assemblies, in  0.426 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 12525 ms
+Android Extension - Scanning For ADB Devices 398 ms
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in 13.895 seconds
-Domain Reload Profiling: 15685ms
-	BeginReloadAssembly (547ms)
+- Finished resetting the current domain, in  0.842 seconds
+Domain Reload Profiling: 1267ms
+	BeginReloadAssembly (137ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (3ms)
-	RebuildCommonClasses (152ms)
-	RebuildNativeTypeToScriptingClass (39ms)
-	initialDomainReloadingComplete (275ms)
-	LoadAllAssembliesAndSetupDomain (774ms)
-		LoadAssemblies (538ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (45ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (67ms)
+	LoadAllAssembliesAndSetupDomain (166ms)
+		LoadAssemblies (135ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (764ms)
-			TypeCache.Refresh (762ms)
-				TypeCache.ScanAssembly (716ms)
+		AnalyzeDomain (164ms)
+			TypeCache.Refresh (161ms)
+				TypeCache.ScanAssembly (147ms)
 			ScanForSourceGeneratedMonoScriptInfo (1ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (13897ms)
+	FinalizeReload (843ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (13731ms)
+		SetupLoadedEditorAssemblies (784ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (12999ms)
-			SetLoadedEditorAssemblies (30ms)
+			InitializePlatformSupportModulesInManaged (580ms)
+			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (19ms)
-			ProcessInitializeOnLoadAttributes (494ms)
-			ProcessInitializeOnLoadMethodAttributes (190ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (138ms)
+			ProcessInitializeOnLoadMethodAttributes (58ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -123,55 +121,179 @@ Domain Reload Profiling: 15685ms
 Worker process is ready to serve import requests
 Caller must complete domain reload
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  2.024 seconds
+Symbol file data-000001DF08DB15E0 doesn't match image C:\KJW\24-2\VR\Project\ParkingSimulator\FinalProject\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DEE69874A0 doesn't match image C:\KJW\24-2\VR\Project\ParkingSimulator\FinalProject\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DF08DC84D0 doesn't match image C:\KJW\24-2\VR\Project\ParkingSimulator\FinalProject\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DF09595980 doesn't match image C:\KJW\24-2\VR\Project\ParkingSimulator\FinalProject\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DF08BB35F0 doesn't match image C:\KJW\24-2\VR\Project\ParkingSimulator\FinalProject\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DF08A0C230 doesn't match image C:\KJW\24-2\VR\Project\ParkingSimulator\FinalProject\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DF08A0C230 doesn't match image C:\KJW\24-2\VR\Project\ParkingSimulator\FinalProject\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DEE7422A20 doesn't match image C:\KJW\24-2\VR\Project\ParkingSimulator\FinalProject\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DF0916C020 doesn't match image C:\KJW\24-2\VR\Project\ParkingSimulator\FinalProject\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DF092E8220 doesn't match image C:\KJW\24-2\VR\Project\ParkingSimulator\FinalProject\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DEE677E740 doesn't match image C:\KJW\24-2\VR\Project\ParkingSimulator\FinalProject\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DF08BB7B40 doesn't match image C:\KJW\24-2\VR\Project\ParkingSimulator\FinalProject\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DEC39B30F0 doesn't match image C:\KJW\24-2\VR\Project\ParkingSimulator\FinalProject\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DEE70F9A10 doesn't match image C:\KJW\24-2\VR\Project\ParkingSimulator\FinalProject\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DF091E6C50 doesn't match image C:\KJW\24-2\VR\Project\ParkingSimulator\FinalProject\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DF08FC6020 doesn't match image C:\KJW\24-2\VR\Project\ParkingSimulator\FinalProject\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DF08FFF640 doesn't match image C:\KJW\24-2\VR\Project\ParkingSimulator\FinalProject\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DEE71C6440 doesn't match image C:\KJW\24-2\VR\Project\ParkingSimulator\FinalProject\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DEE71C6440 doesn't match image C:\KJW\24-2\VR\Project\ParkingSimulator\FinalProject\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DEE71C6440 doesn't match image C:\KJW\24-2\VR\Project\ParkingSimulator\FinalProject\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DF090BF260 doesn't match image C:\KJW\24-2\VR\Project\ParkingSimulator\FinalProject\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DEE67D0240 doesn't match image C:\KJW\24-2\VR\Project\ParkingSimulator\FinalProject\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DEE67D0240 doesn't match image C:\KJW\24-2\VR\Project\ParkingSimulator\FinalProject\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.714 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.149 seconds
-Domain Reload Profiling: 3147ms
-	BeginReloadAssembly (569ms)
+- Finished resetting the current domain, in  0.941 seconds
+Domain Reload Profiling: 1654ms
+	BeginReloadAssembly (142ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (19ms)
+		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
-		ReleaseScriptingObjects (1ms)
-		CreateAndSetChildDomain (55ms)
-	RebuildCommonClasses (120ms)
-	RebuildNativeTypeToScriptingClass (31ms)
-	initialDomainReloadingComplete (171ms)
-	LoadAllAssembliesAndSetupDomain (1106ms)
-		LoadAssemblies (1043ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (38ms)
+	LoadAllAssembliesAndSetupDomain (489ms)
+		LoadAssemblies (327ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (420ms)
-			TypeCache.Refresh (368ms)
-				TypeCache.ScanAssembly (341ms)
-			ScanForSourceGeneratedMonoScriptInfo (33ms)
-			ResolveRequiredComponents (17ms)
-	FinalizeReload (1149ms)
+		AnalyzeDomain (245ms)
+			TypeCache.Refresh (209ms)
+				TypeCache.ScanAssembly (192ms)
+			ScanForSourceGeneratedMonoScriptInfo (24ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (942ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (907ms)
+		SetupLoadedEditorAssemblies (787ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (46ms)
-			SetLoadedEditorAssemblies (4ms)
+			InitializePlatformSupportModulesInManaged (25ms)
+			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (121ms)
-			ProcessInitializeOnLoadAttributes (617ms)
-			ProcessInitializeOnLoadMethodAttributes (98ms)
-			AfterProcessingInitializeOnLoad (21ms)
+			BeforeProcessingInitializeOnLoad (77ms)
+			ProcessInitializeOnLoadAttributes (591ms)
+			ProcessInitializeOnLoadMethodAttributes (83ms)
+			AfterProcessingInitializeOnLoad (8ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (18ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
-Refreshing native plugins compatible for Editor in 31.92 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (11ms)
+Failed to load shader (instanceID 474, GUID 5f1864addb451f54bae8c86d230f736e)
+Failed to load shader (instanceID 548, GUID 8516d7a69675844a7a0b7095af7c46af)
+Failed to load shader (instanceID 580, GUID c8b6a681c7b4e2e4785ffab093907f9e)
+Failed to load shader (instanceID 434, GUID ec9fec698a3456d4fb18cf8bacb7a2bc)
+Failed to load shader (instanceID 466, GUID 5e7134d6e63e0bc47a1dd2669cedb379)
+Failed to load shader (instanceID 498, GUID 0f4122b9a743b744abe2fb6a0a88868b)
+Failed to load shader (instanceID 460, GUID d5a307c014552314b9f560906d708772)
+Failed to load shader (instanceID 578, GUID 21322c8b137c66e49b86085d3c8161f6)
+Failed to load shader (instanceID 586, GUID 0a7e590f3cf1d4ee8a8fab5b6eff09ef)
+Failed to load shader (instanceID 426, GUID d6dae50ee9e1bfa4db75f19f99355220)
+Failed to load shader (instanceID 522, GUID 573620ae32aec764abd4d728906d2587)
+Failed to load shader (instanceID 432, GUID 65df88701913c224d95fc554db28381a)
+Failed to load shader (instanceID 596, GUID 650dd9526735d5b46b79224bc6e94025)
+Failed to load shader (instanceID 468, GUID 2aed67ad60045d54ba3a00c91e2d2631)
+Failed to load shader (instanceID 590, GUID 74b1585886a85614aa34e2c8e303c77a)
+Failed to load shader (instanceID 480, GUID e8ee25143a34b8c4388709ea947055d1)
+Failed to load shader (instanceID 552, GUID 8fbe92a9edfe6074e841d6dd1509bc59)
+Failed to load shader (instanceID 462, GUID 1121bb4e615ca3c48b214e79e841e823)
+Failed to load shader (instanceID 430, GUID 04c410c9937594faa893a11dceb85f7e)
+Failed to load shader (instanceID 528, GUID a16365e8c873daa4c94919438490b905)
+Failed to load shader (instanceID 458, GUID 4431b1f1f743fbf4eb310a967890cbea)
+Failed to load shader (instanceID 504, GUID e9155b26e1bc55942a41e518703fe304)
+Failed to load shader (instanceID 554, GUID 5caf62d8bd7c44596ace77ef9eb8ea31)
+Failed to load shader (instanceID 492, GUID f6783ab646d374f94b199774402a5144)
+Failed to load shader (instanceID 564, GUID 77cfa04f893eb8745b6a454a3d51b43c)
+Failed to load shader (instanceID 598, GUID 19dfbb09098c9584a83c956fbd6c5d79)
+Failed to load shader (instanceID 454, GUID 8d2bb70cbf9db8d4da26e15b26e74248)
+Failed to load shader (instanceID 530, GUID 0d0f817524897904ba47a6a1d55e7668)
+Failed to load shader (instanceID 506, GUID e6e9a19c3678ded42a3bc431ebef7dbd)
+Failed to load shader (instanceID 512, GUID d104b2fc1ca6445babb8e90b0758136b)
+Failed to load shader (instanceID 436, GUID e7857e9d0c934dc4f83f270f8447b006)
+Failed to load shader (instanceID 450, GUID 69c1f799e772cb6438f56c23efccb782)
+Failed to load shader (instanceID 588, GUID ee7e4c9a5f6364b688a332c67fc32cca)
+Failed to load shader (instanceID 594, GUID de02b375720b5c445afe83cd483bedf3)
+Failed to load shader (instanceID 510, GUID 93446b5c5339d4f00b85c159e1159b7c)
+Failed to load shader (instanceID 508, GUID 5fd9a8feb75a4b5894c241777f519d4e)
+Failed to load shader (instanceID 584, GUID da07703fcc09f8d4799221050659bd55)
+Failed to load shader (instanceID 446, GUID e8b802ac01d87144b91f12f40c1f2659)
+Failed to load shader (instanceID 600, GUID 2df96b66b5510f94b98df2ac6f926ef4)
+Failed to load shader (instanceID 526, GUID 61e53729ad706d049b12a441f328fe34)
+Failed to load shader (instanceID 556, GUID e35a31e1679aeff489e202f5cc4853d5)
+Failed to load shader (instanceID 544, GUID 36e335017ad71d54fbb10842863188ae)
+Failed to load shader (instanceID 496, GUID 29868e73b638e48ca99a19ea58c48d90)
+Failed to load shader (instanceID 478, GUID 6cda457ac28612740adb23da5d39ea92)
+Failed to load shader (instanceID 540, GUID 50b406436c6214c49aaaa6011b71dde8)
+Failed to load shader (instanceID 566, GUID ce09d4a80b88c5a4eb9768fab4f1ee00)
+Failed to load shader (instanceID 440, GUID e39bd598ce13f44ba8af997d3e42cd18)
+Failed to load shader (instanceID 476, GUID 131f1b93a4ebd459ba87b6bad055fb33)
+Failed to load shader (instanceID 456, GUID 13c02b14c4d048fa9653293d54f6e0e1)
+Failed to load shader (instanceID 532, GUID 4386e57b23a56004c93e1d57d2bbcb4f)
+Failed to load shader (instanceID 570, GUID 44fc62292b65ab04eabcf310e799ccf6)
+Failed to load shader (instanceID 592, GUID c7d04ca57e5449d49ad9cee1c604bc26)
+Failed to load shader (instanceID 536, GUID 0ca6dca7396eb48e5849247ffd444914)
+Failed to load shader (instanceID 558, GUID b7839dad95683814aa64166edc107ae2)
+Failed to load shader (instanceID 574, GUID d79e1c784eaf80c4585c0be7391f757a)
+Failed to load shader (instanceID 502, GUID cf852408f2e174538bcd9b7fda1c5ae7)
+Failed to load shader (instanceID 482, GUID 562b7ae4f629f144aa97780546fce7c6)
+Failed to load shader (instanceID 546, GUID f056d8bd2a1c7e44e9729144b4c70395)
+Failed to load shader (instanceID 452, GUID e260cfa7296ee7642b167f1eb5be5023)
+Failed to load shader (instanceID 448, GUID 0406db5a14f94604a8c57ccfbc9f3b46)
+Failed to load shader (instanceID 534, GUID 95e15a77195eb574ab82aaac18b1c796)
+Failed to load shader (instanceID 568, GUID 0849e84e3d62649e8882e9d6f056a017)
+Failed to load shader (instanceID 602, GUID 77774d9009bb81447b048c907d4c6273)
+Failed to load shader (instanceID 576, GUID 99134b1f0c27d54469a840832a28fadf)
+Failed to load shader (instanceID 572, GUID 5ec81c81908db34429b4f6ddecadd3bd)
+Failed to load shader (instanceID 470, GUID 1edcd131364091c46a17cbff0b1de97a)
+Failed to load shader (instanceID 518, GUID 7f888aff2ac86494babad1c2c5daeee2)
+Failed to load shader (instanceID 464, GUID 63eaba0ebfb82cc43bde059b4a8c65f6)
+Failed to load shader (instanceID 442, GUID 60e10855641b4d84da68ec72e6f6eeb8)
+Failed to load shader (instanceID 424, GUID c17132b1f77d20942aa75f8429c0f8bc)
+Failed to load shader (instanceID 484, GUID c49e63ed1bbcb334780a3bd19dfed403)
+Failed to load shader (instanceID 520, GUID a89bee29cffa951418fc1e2da94d1959)
+Failed to load shader (instanceID 514, GUID c56b7e0d4c7cb484e959caeeedae9bbf)
+Failed to load shader (instanceID 472, GUID a15b78cf8ca26ca4fb2090293153c62c)
+Failed to load shader (instanceID 418, GUID 933532a4fcc9baf4fa0491de14d08ed7)
+Failed to load shader (instanceID 494, GUID e507fdfead5ca47e8b9a768b51c291a1)
+Failed to load shader (instanceID 516, GUID 7b3ede40266cd49a395def176e1bc486)
+Failed to load shader (instanceID 538, GUID 7e60080c8cd24a2468cb08b4bfee5606)
+Failed to load shader (instanceID 428, GUID 0f854b35a0cf61a429bd5dcfea30eddd)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 4.34 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5015 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 29 unused Assets / (0.8 MB). Loaded Objects now: 5480.
-Memory consumption went from 196.3 MB to 195.5 MB.
-Total: 4.711300 ms (FindLiveObjects: 0.444700 ms CreateObjectMapping: 0.430700 ms MarkObjects: 3.441800 ms  DeleteObjects: 0.393000 ms)
+Unloading 3120 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (54.9 KB). Loaded Objects now: 3595.
+Memory consumption went from 137.9 MB to 137.9 MB.
+Total: 3.296300 ms (FindLiveObjects: 0.182300 ms CreateObjectMapping: 0.065100 ms MarkObjects: 2.958000 ms  DeleteObjects: 0.089800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
@@ -185,112 +307,110 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 124468.325559 seconds.
-  path: Assets/CS - Signs Free/Prefabs/Large/Sign_2_Way_Street.prefab
-  artifactKey: Guid(3a46691d5182e6b45b689599dceb669f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CS - Signs Free/Prefabs/Large/Sign_2_Way_Street.prefab using Guid(3a46691d5182e6b45b689599dceb669f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '93a6624802d78c647297c1a3b19b0f29') in 0.904007 seconds
+  Time since last request: 1275.426599 seconds.
+  path: Assets/Prefabs/Player.prefab
+  artifactKey: Guid(1c6e969299852db4ba92c3a6a49505a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player.prefab using Guid(1c6e969299852db4ba92c3a6a49505a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '2679fac2ecf44b7117488f585dfb378a') in 0.165000 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 40
+Number of asset objects unloaded after import = 237
 ========================================================================
 Received Import Request.
-  Time since last request: 2.403654 seconds.
-  path: Assets/CS - Signs Free/Prefabs/Sm-Med/Sign_2_Way_Street.prefab
-  artifactKey: Guid(c38f701c334163a479e23a27da555edd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CS - Signs Free/Prefabs/Sm-Med/Sign_2_Way_Street.prefab using Guid(c38f701c334163a479e23a27da555edd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'c378fc0ddef0ee012108711b4062f4a8') in 0.034972 seconds
+  Time since last request: 11.347646 seconds.
+  path: Assets/CS - Signs Free/Prefabs/Freeway
+  artifactKey: Guid(ee88ebe194f1822428234e04ed1c5ad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CS - Signs Free/Prefabs/Freeway using Guid(ee88ebe194f1822428234e04ed1c5ad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '23afa138d30775823446a6ccd0da6ce9') in 0.002230 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 40
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/CS - Signs Free/Prefabs/Sm-Med/Sign_Crossroad.prefab
-  artifactKey: Guid(e8587009c220d67439aacb895efab706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CS - Signs Free/Prefabs/Sm-Med/Sign_Crossroad.prefab using Guid(e8587009c220d67439aacb895efab706) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '2e2055d0aff1f04d363b03385789d1bf') in 0.094613 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 40
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/CS - Signs Free/Prefabs/Sm-Med/Sign_Keep_Right.prefab
-  artifactKey: Guid(8be90e9d4304710459980de7dac73c2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CS - Signs Free/Prefabs/Sm-Med/Sign_Keep_Right.prefab using Guid(8be90e9d4304710459980de7dac73c2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '0e6bdda4a96c55544d8e50bcf517b439') in 0.318030 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 40
-========================================================================
-Received Import Request.
-  Time since last request: 1.291207 seconds.
-  path: Assets/CS - Signs Free/Prefabs/Small/Sign_2_Hour_Parking_2.prefab
-  artifactKey: Guid(809be4b584cf9964397021645a8e2ca8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CS - Signs Free/Prefabs/Small/Sign_2_Hour_Parking_2.prefab using Guid(809be4b584cf9964397021645a8e2ca8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '5fc9314c059ea0ebf7a4ba30d4159a4d') in 0.031898 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 40
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/CS - Signs Free/Prefabs/Small/Sign_Divided_Highway_Ends.prefab
-  artifactKey: Guid(4e3f61a8096fa4c43968c862844fc059) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CS - Signs Free/Prefabs/Small/Sign_Divided_Highway_Ends.prefab using Guid(4e3f61a8096fa4c43968c862844fc059) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '06d52f63b0d34081fa045bce7cb3b9aa') in 0.050419 seconds
+  Time since last request: 0.134284 seconds.
+  path: Assets/CS - Signs Free/Prefabs/Freeway/Sign_Exit.prefab
+  artifactKey: Guid(f5151f948e7bea547abe38843d5b5b3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CS - Signs Free/Prefabs/Freeway/Sign_Exit.prefab using Guid(f5151f948e7bea547abe38843d5b5b3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'f895f00bda0f919ce3722c2e15baea14') in 0.134946 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 40
 ========================================================================
 Received Import Request.
   Time since last request: 0.000028 seconds.
-  path: Assets/CS - Signs Free/Prefabs/Small/Sign_Forward_or_Left.prefab
-  artifactKey: Guid(8df825f6b0240dd45be8926dcac9e1a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CS - Signs Free/Prefabs/Small/Sign_Forward_or_Left.prefab using Guid(8df825f6b0240dd45be8926dcac9e1a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '7e63182477ed8a52d6c66615f4d85d5e') in 0.083303 seconds
+  path: Assets/CS - Signs Free/Prefabs/Freeway/SignPost_2.prefab
+  artifactKey: Guid(09a6c11c3415a384a965e814ec8c7c5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CS - Signs Free/Prefabs/Freeway/SignPost_2.prefab using Guid(09a6c11c3415a384a965e814ec8c7c5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '2e5dc0ee1d3349c6de4e9413cc236567') in 0.084468 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 5.746300 seconds.
+  path: Assets/CS - Signs Free/Prefabs/Sm-Med
+  artifactKey: Guid(f719c40ccf2595f47846cefd3ac06e46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CS - Signs Free/Prefabs/Sm-Med using Guid(f719c40ccf2595f47846cefd3ac06e46) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'b7b533e0aa8f46d63fd42cfbdf6e068d') in 0.001481 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.084542 seconds.
+  path: Assets/CS - Signs Free/Prefabs/Sm-Med/Sign_2_Way_Street.prefab
+  artifactKey: Guid(c38f701c334163a479e23a27da555edd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CS - Signs Free/Prefabs/Sm-Med/Sign_2_Way_Street.prefab using Guid(c38f701c334163a479e23a27da555edd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '59668d257e7f16dc1b32181aa4f602e0') in 0.055868 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 40
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000087 seconds.
-  path: Assets/CS - Signs Free/Prefabs/Small/Sign_Divided_Highway.prefab
-  artifactKey: Guid(532bf43f3289fd9438e97dbe3cc6eedc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CS - Signs Free/Prefabs/Small/Sign_Divided_Highway.prefab using Guid(532bf43f3289fd9438e97dbe3cc6eedc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '638e20cabfc9c098ffa4f81b201d8bf7') in 0.050132 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 40
-========================================================================
-Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/CS - Signs Free/Prefabs/Small/Sign_Center_Lane_Turn_Only.prefab
-  artifactKey: Guid(783ae1ccba841764c9080f4783d801a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CS - Signs Free/Prefabs/Small/Sign_Center_Lane_Turn_Only.prefab using Guid(783ae1ccba841764c9080f4783d801a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'b9fee032c9dc8e40cee76b7cbb2a20a3') in 0.029029 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 40
-========================================================================
-Received Import Request.
-  Time since last request: 0.557210 seconds.
-  path: Assets/CS - Signs Free/Prefabs/X-Small/St_1st.prefab
-  artifactKey: Guid(53c937009c476274a8e5d7879b242b51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CS - Signs Free/Prefabs/X-Small/St_1st.prefab using Guid(53c937009c476274a8e5d7879b242b51) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '38b39ccc388734477616a09ffe8282bc') in 0.039147 seconds
+  Time since last request: 0.000037 seconds.
+  path: Assets/CS - Signs Free/Prefabs/Sm-Med/Sign_Chevron_R.prefab
+  artifactKey: Guid(96d80214945894c4e883cdc478ec1f07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CS - Signs Free/Prefabs/Sm-Med/Sign_Chevron_R.prefab using Guid(96d80214945894c4e883cdc478ec1f07) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'b084c5bec973b31d40cea545c96ee189') in 0.028257 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 40
 ========================================================================
 Received Import Request.
   Time since last request: 0.000036 seconds.
-  path: Assets/CS - Signs Free/Prefabs/X-Small/Tab_Speed_25.prefab
-  artifactKey: Guid(7906122a50f78014295cc7207ea8447a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CS - Signs Free/Prefabs/X-Small/Tab_Speed_25.prefab using Guid(7906122a50f78014295cc7207ea8447a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '8b28983ed29b1fa89040a10d26e3ac4b') in 0.036888 seconds
+  path: Assets/CS - Signs Free/Prefabs/Sm-Med/Sign_Divided_Highway.prefab
+  artifactKey: Guid(2f3d141cd7ad99c409cae3f760326c8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CS - Signs Free/Prefabs/Sm-Med/Sign_Divided_Highway.prefab using Guid(2f3d141cd7ad99c409cae3f760326c8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '47a7e6fff653fc1d2851e1f53709c624') in 0.043374 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 40
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/CS - Signs Free/Prefabs/Sm-Med/Sign_Left_Lane_Ends_2.prefab
+  artifactKey: Guid(fe623af42e4ca964089d01a1e2aa2949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CS - Signs Free/Prefabs/Sm-Med/Sign_Left_Lane_Ends_2.prefab using Guid(fe623af42e4ca964089d01a1e2aa2949) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '520956ec8ecdef169c35dedac610d29d') in 0.039296 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 40
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/CS - Signs Free/Prefabs/Sm-Med/Sign_LR.prefab
+  artifactKey: Guid(330206d07eea04b419dab1ac0eb8e569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CS - Signs Free/Prefabs/Sm-Med/Sign_LR.prefab using Guid(330206d07eea04b419dab1ac0eb8e569) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'f6d312602f7d0c354d9cd74651f83f0d') in 0.051818 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 40
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/CS - Signs Free/Prefabs/Sm-Med/Sign_No_Right_Turn.prefab
+  artifactKey: Guid(052ae24a20e21554585b3c80c6488182) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CS - Signs Free/Prefabs/Sm-Med/Sign_No_Right_Turn.prefab using Guid(052ae24a20e21554585b3c80c6488182) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '39b06a86b7c211b8428a0c03a6434f08') in 0.066266 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 40
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout

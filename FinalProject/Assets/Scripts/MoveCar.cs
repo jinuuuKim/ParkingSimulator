@@ -4,10 +4,10 @@ using UnityEngine;
 
 public class MoveCar : MonoBehaviour
 {
-    public float acceleration = 15f; // 가속도
+    public float acceleration = 8f; // 가속도
     public float deceleration = 30f; // 감속도
-    public float maxSpeed = 20f; // 최대 속도
-    public float reverseMaxSpeed = 10f; // 최대 후진 속도
+    public float maxSpeed = 10; // 최대 속도
+    public float reverseMaxSpeed = 5; // 최대 후진 속도
     public float turnSpeed = 50f; // 회전 속도
     public float brakeForce = 50f; // 브레이크 강도
 
