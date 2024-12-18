@@ -375,6 +375,7 @@
 "Assets/Scripts/CarCollision.cs"
 "Assets/Scripts/EnterGarage.cs"
 "Assets/Scripts/EnterParkingArea.cs"
+"Assets/Scripts/EnterStart.cs"
 "Assets/Scripts/EnterStreet.cs"
 "Assets/Scripts/EnterT.cs"
 "Assets/Scripts/MoveCar.cs"

@@ -41,7 +41,7 @@ public class GarageManager : MonoBehaviour
         popup.LookAt(playerCar);
 
         // 4초 후 팝업 비활성화
-        StartCoroutine(HidePopupAfterDelay(popup, 4f));
+        StartCoroutine(HidePopupAfterDelay(popup, 5f));
     }
 
     IEnumerator HidePopupAfterDelay(Transform popup, float delay)
