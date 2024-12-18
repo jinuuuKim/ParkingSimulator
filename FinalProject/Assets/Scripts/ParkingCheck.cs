@@ -1,4 +1,5 @@
 using UnityEngine;
+using System.Collections;
 
 public class ParkingManager : MonoBehaviour
 {
@@ -34,14 +35,14 @@ public class ParkingManager : MonoBehaviour
     void Update()
     {
         // P 키를 누르면 성공/실패 팝업을 표시
-        if (Input.GetKeyDown(KeyCode.P) && activeParkingZone == this)
+        if (Input.GetKeyDown(KeyCode.P))
         {
-            if (isInsideParkingZone)
+            if (activeParkingZone == this && isInsideParkingZone)
             {
                 ShowPopup(successPopup); // 성공 팝업 활성화
                 Debug.Log("Parking Success!");
             }
-            else
+            else if (activeParkingZone == null || (activeParkingZone == this && !isInsideParkingZone))
             {
                 ShowPopup(failurePopup); // 실패 팝업 활성화
                 Debug.Log("Parking Failure!");
@@ -49,17 +50,28 @@ public class ParkingManager : MonoBehaviour
         }
     }
 
+
     void ShowPopup(Transform popup)
     {
-        // 팝업 활성화
-        popup.gameObject.SetActive(true);
+        popup.gameObject.SetActive(true); // 팝업 활성화
 
         // 팝업을 자동차 앞에 위치
-        Transform playerCar = GameObject.FindWithTag("Player").transform; // "Player" 태그를 가진 차량
-        Vector3 popupPosition = playerCar.position + playerCar.forward * 4 + Vector3.up * 1; // 자동차 앞 2 유닛
+        Transform playerCar = GameObject.FindWithTag("Player").transform;
+        Vector3 popupPosition = playerCar.position + playerCar.forward * 4 + Vector3.up * 1;
         popup.position = popupPosition;
 
         // 팝업이 차량을 바라보도록 설정
         popup.LookAt(playerCar);
+
+        // 2초 후 팝업 비활성화
+        StartCoroutine(HidePopupAfterDelay(popup, 2f));
     }
+
+    IEnumerator HidePopupAfterDelay(Transform popup, float delay)
+    {
+        yield return new WaitForSeconds(delay);
+        popup.gameObject.SetActive(false); // 팝업 비활성화
+    }
+
+
 }
