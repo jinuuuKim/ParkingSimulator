@@ -34,14 +34,14 @@ public class TManager : MonoBehaviour
 
         // 팝업을 자동차 앞에 위치
         Transform playerCar = GameObject.FindWithTag("Player").transform;
-        Vector3 popupPosition = playerCar.position + playerCar.forward * 6 + Vector3.up * 1;
+        Vector3 popupPosition = playerCar.position + playerCar.forward * 7 + Vector3.up * 1;
         popup.position = popupPosition;
 
         // 팝업이 차량을 바라보도록 설정
         popup.LookAt(playerCar);
 
         // 4초 후 팝업 비활성화
-        StartCoroutine(HidePopupAfterDelay(popup, 4f));
+        StartCoroutine(HidePopupAfterDelay(popup, 5f));
     }
 
     IEnumerator HidePopupAfterDelay(Transform popup, float delay)
