@@ -7,6 +7,10 @@ TagManager:
   - ParkedCar
   - Barricades
   - ParkingZone
+  - GarageZone
+  - StreetZone
+  - ParkingPlaceZone
+  - TZone
   layers:
   - Default
   - TransparentFX
