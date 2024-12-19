@@ -12,6 +12,12 @@ public class RespawnManager : MonoBehaviour
         {
             Respawn(); // 리스폰 실행
         }
+
+        // R 키를 누른 경우
+        if (Input.GetKeyDown(KeyCode.R))
+        {
+            Respawn(); // 리스폰 실행
+        }
     }
 
     void Respawn()
